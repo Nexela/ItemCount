@@ -1,0 +1,10 @@
+{
+	"name":"ItemCount",
+	"author":"ThaPear",
+	"version":"0.0.4",
+	"factorio_version":"0.13",
+	"title":"Item Count",
+	"homepage":"",
+	"description":"Shows total item count instead of just the current stack.",
+	"dependencies": ["base >= 0.13.0"]
+}
