@@ -6,5 +6,5 @@
 	"title":"Item Count",
 	"homepage":"",
 	"description":"Shows total item count instead of just the current stack.",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.13.9"]
 }
