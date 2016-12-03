@@ -41,5 +41,12 @@ local function CheckStack(event)
 	end
 	--]]
 end
-local events = {defines.events.on_player_cursor_stack_changed, defines.events.on_player_driving_changed_state}
+local events = {
+	defines.events.on_player_cursor_stack_changed,
+	defines.events.on_player_driving_changed_state,
+	defines.events.on_player_main_inventory_chaged,
+	defines.events.on_player_ammo_inventory_changed,
+	defines.events.on_player_quickbar_inventory_changed,
+	--defines.events.on_player_crafted_item,
+}
 script.on_event(events, function(event) CheckStack(event) end)
