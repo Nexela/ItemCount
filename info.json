@@ -1,8 +1,8 @@
 {
 	"name":"ItemCount",
 	"author":"ThaPear, Nexela",
-	"version":"1.0.3",
-	"factorio_version": "0.15",
+	"version":"1.0.4",
+	"factorio_version": "0.16",
 	"title":"Item Count",
 	"homepage":"",
 	"description":"Shows total item count instead of just the current stack. Disabled if picker extended is installed.",
